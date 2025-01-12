@@ -3,12 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yuji+Mai&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="page">
+
+    <header class="pageHeader">
+        <h1 class="pageHeaderTittle">My To Do List</h1>
+        <input class="pageHeaderInput" type="text" placeholder="Create a new todo">
+    </header>
     
+    <main class="pageMain">
+
+        <section class="tasksContainer">
+            <article class="task">
+                <div class="taskLeft">
+                    <input type="checkbox">
+                    <h2 class="taskTittle">task 3</h2>
+                </div>
+                <button class="deleteTaskButton">X</button>
+            </article>
+            <article class="task">
+                <div class="taskLeft">
+                    <input type="checkbox">
+                    <h2 class="taskTittle">task 3</h2>
+                </div>
+                <button class="deleteTaskButton">X</button>
+            </article>
+            <article class="task">
+                <div class="taskLeft">
+                    <input type="checkbox">
+                    <h2 class="taskTittle">task 3</h2>
+                </div>
+                <button class="deleteTaskButton">X</button>
+            </article>
+            <article class="task">
+                <div class="taskLeft">
+                    <input type="checkbox">
+                    <h2 class="taskTittle">task 3</h2>
+                </div>
+                <button class="deleteTaskButton">X</button>
+            </article>
+            <article class="task">
+                <div class="taskLeft">
+                    <input type="checkbox">
+                    <h2 class="taskTittle">task 3</h2>
+                </div>
+                <button class="deleteTaskButton">X</button>
+            </article>
+        </section>
+
+        <nav class="filtersButtons">
+            <button>All</button>
+            <button>Active</button>
+            <button>Completed</button>
+        </nav>
+
+        <section class="dropContainer">
+            <span class="dropText">Drag an drop to reorder list</span>
+        </section>
+
+    </main>
 </body>
 <script src="main.js"></script>
 </html>
