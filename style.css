@@ -65,10 +65,9 @@
 }
 
 .deleteTaskButton {
-    font-weight: 900;
-    font-family: monospace;
-    font-size: 1.5em;
+    scale: .8;
     padding-right: 2dvw;
+    cursor: pointer;
 }
 
 
@@ -87,6 +86,10 @@
     justify-content: space-around;
     margin: 4dvh 0;
     padding: 2dvh 0;
+}
+
+.filterButton{
+    cursor: pointer;
 }
 
 .dropContainer{
