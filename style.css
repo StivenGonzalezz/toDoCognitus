@@ -37,12 +37,13 @@
     padding:0 4dvw;
 }
 
-.tasksContainer{
+.tasks{
     background-color: #191919;
     border: solid 1px whitesmoke;
     border-radius: 5px;
     margin-top: -4dvh;
 }
+
 
 .task {
     display: flex;
@@ -57,6 +58,21 @@
 
 }
 
+.checkboxCustom{
+    width: 20px;
+    height: 20px    ;
+    border: solid 1px rgb(160, 160, 160);
+    border-radius: 50%;
+}
+
+.checkboxCustom.active{
+    width: 20px;
+    height: 20px    ;
+    border: solid 1px rgb(160, 160, 160);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, aqua, violet)
+}
+
 .taskTittle{
     padding-left: 1dvh;
     padding-top: .4dvh;
@@ -68,6 +84,13 @@
     scale: .8;
     padding-right: 2dvw;
     cursor: pointer;
+}
+
+.tasksRemaining{
+    display: flex;
+    justify-content: space-between;
+    padding: 3dvh 4dvw;
+    color: #757575
 }
 
 
