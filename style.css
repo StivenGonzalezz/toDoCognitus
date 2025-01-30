@@ -30,8 +30,20 @@
 .pageHeaderInput{
     border-radius: 10px;
     padding: 1dvh 4dvw;
-    width: 100%;
+    width: 90%;
 }
+
+
+.inputContainer{
+    width: 100%;
+    display: flex;
+}
+
+.sendImage{
+    width: 2rem;
+    padding-left: .2rem;
+    cursor: pointera
+
 
 .pageMain{
     padding:0 4dvw;

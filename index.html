@@ -14,7 +14,10 @@
 
     <header class="pageHeader">
         <h1 class="pageHeaderTittle">My To Do List</h1>
-        <input class="pageHeaderInput" type="text" placeholder="Create a new todo">
+        <div class="inputContainer">
+            <input id="taskInput" class="pageHeaderInput" type="text" placeholder="Create a new todo">
+            <img class="sendImage" src="images/send-alt-1-svgrepo-com.svg" onclick="createTask()" alt="">
+        </div>
     </header>
     
     <main class="pageMain">
@@ -23,35 +26,35 @@
             <section class="tasksContainer">
                 <article class="task">
                     <div class="taskLeft">
-                        <span id="task1" class="checkboxCustom active" onclick="toggleClassTask()"></span>                        
+                        <span id="task1" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
                         <h2 class="taskTittle">task 3</h2>
                     </div>
                     <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
                 </article>
                 <article class="task">
                     <div class="taskLeft">
-                        <span id="task2" class="checkboxCustom active" onclick="toggleClassTask()"></span>                        
+                        <span id="task2" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
                         <h2 class="taskTittle">task 3</h2>
                     </div>
                     <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
                 </article>
                 <article class="task">
                     <div class="taskLeft">
-                        <span id="task1" class="checkboxCustom active" onclick="toggleClassTask()"></span>                        
+                        <span id="task3" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
                         <h2 class="taskTittle">task 3</h2>
                     </div>
                     <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
                 </article>
                 <article class="task">
                     <div class="taskLeft">
-                        <span id="task1" class="checkboxCustom active" onclick="toggleClassTask()"></span>                        
+                        <span id="task4" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
                         <h2 class="taskTittle">task 3</h2>
                     </div>
                     <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
                 </article>
                 <article class="task">
                     <div class="taskLeft">
-                        <span id="task1" class="checkboxCustom active" onclick="toggleClassTask()"></span>                        
+                        <span id="task5" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
                         <h2 class="taskTittle">task 3</h2>
                     </div>
                     <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
