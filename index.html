@@ -23,47 +23,11 @@
     <main class="pageMain">
 
         <div class="tasks">
-            <section class="tasksContainer">
-                <article class="task">
-                    <div class="taskLeft">
-                        <span id="task1" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
-                        <h2 class="taskTittle">task 3</h2>
-                    </div>
-                    <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
-                </article>
-                <article class="task">
-                    <div class="taskLeft">
-                        <span id="task2" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
-                        <h2 class="taskTittle">task 3</h2>
-                    </div>
-                    <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
-                </article>
-                <article class="task">
-                    <div class="taskLeft">
-                        <span id="task3" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
-                        <h2 class="taskTittle">task 3</h2>
-                    </div>
-                    <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
-                </article>
-                <article class="task">
-                    <div class="taskLeft">
-                        <span id="task4" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
-                        <h2 class="taskTittle">task 3</h2>
-                    </div>
-                    <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
-                </article>
-                <article class="task">
-                    <div class="taskLeft">
-                        <span id="task5" class="checkboxCustom" onclick="toggleClassTask()"></span>                        
-                        <h2 class="taskTittle">task 3</h2>
-                    </div>
-                    <button class="deleteTaskButton"><img src="images/icon-cross.svg" alt=""></button>
-                </article>
-                
+            <section id="tasksContainert" class="tasksContainer">
             </section>
             <section class="tasksRemaining">
-                <span>5 Taks left</span>
-                <span>Clear Complete</span>
+                <span>0 Taks left</span>
+                <span style="cursor: pointer;" onclick="clearCompleted()">Clear Complete</span>
             </section>
         </div>
 
